@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "CeraProLight";
+  src: url("/assets/font/Cera-Pro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "CeraProLight", sans-serif;
+}
+
+.hero {
+  background-color: white;
+  color: #363636;
+  text-align: center;
+  padding: 100px 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-container {
+  margin: 0 auto; /* Center the container */
+  max-width: 1200px; /* Set a maximum width for the container if needed */
+}
+
+.hero-image img {
+  max-width: 400px; /* Limit the image width to 400px */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+.spotify-link {
+  margin-top: 10px; /* Adjust margin as needed */
+  color: #949494; /* Spotify green color */
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
